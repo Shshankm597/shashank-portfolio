@@ -4,45 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css"/>
-    <title>Document</title>
+    <title>Blogs</title>
 </head>
 <body>
+
     <nav class="navigation">
         <div class="nav-brand">Shashank Codes</div>
         <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline active"><a class="link" href='/'>Home</a></li>
+            <li class="list-item-inline"><a class="link" href='/'>Home</a></li>
             <li class="list-item-inline"><a class="link" href='/projects.html'>Projects</a></li>
-            <li class="list-item-inline"><a class="link" href='/blogs.html'>Blogs</a></li>
+            <li class="list-item-inline active"><a class="link" href='/blogs.html'>Blogs</a></li>
         </ul>
     </nav>
 
     <header class=hero>
-        <img class="hero-img" src="images/hero.svg" />
-        <h1 class="hero-heading">Shashank <span class="heading-inverted">the web developer</span></h1>
+        <h1 class="hero-heading">read my <span class="heading-inverted">blogs</span></h1>
     </header>
 
-    <section class="section ow">
-        <div class="container">
-        <h1>Technologies</h1>
-        <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting.</p>
-        </div>
-    </section>
+    <div class="container">
 
-    <section class="section">
-        <div class="container">
-        <h1>Projects</h1>
-        <p>I have made couple of projects based on the technologies I have learned. Give it a look.</p>
-        <a class="link link-primary" href="/projects.html">see my work</a>
-        </div>
-    </section>
+    <ol reversed>
 
-    <section class="section ow">
-        <div class="container">
-        <h1>Blogs</h1>
-        <p>I'm working on writing some blogs too. They'll be up soon.</p>
-        <a class="link link-secondary" href="/blogs.html">read my blogs</a>
-        </div>
-    </section>
+        <li>
+            <h1>Why most people use .com as their domain name</h1>
+            <small>November, 2020</small>
+            <p>Are you interested in learning the facts behind the <strong>.com</strong> domain? Did you know that <strong>Symbolics.com</strong> was the first registered .com domain name. Read more by clicking on below button</p>
+
+            <a class="link link-secondary" href="/blog1.html">Read more</a>
+
+        </li>
+
+        <li>
+            <h1>My learnings of first two nodeJS modules: Readline and CHALK</h1>
+            <small>November, 2020</small>
+            <p>I recently started learning nodeJS. Readline and Chalk were the first two modules that I learned first. Read more of my tidbits by clicking on the below button</p>
+
+            <a class="link link-secondary" href="/blog2.html">Read more</a>
+
+        </li>
+
+    </ol>
+    </div>
 
     <footer class="footer">
         <div>
@@ -58,7 +60,6 @@
             <li class="list-item-inline"> <a class="link" href="https://www.linkedin.com/in/shashank-shekhar-mishra-259a05148/" target=”_blank”>linkedin</a></li>
         </ul>
     </footer>
-
 
 </body>
 </html>

@@ -1,0 +1,166 @@
+/* importing font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #059669;
+    --dark-gray: #4B5563;
+    --gray: #F3F4F6;
+}
+
+/* applying the font to the entire codebase */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+/* adding top bottom margin for the break line */
+hr {
+    margin: 2rem 0rem;
+}
+
+/* containers */
+.container-fluid {
+    padding: 0rem 1rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0.5rem;
+}
+
+/* navigation bar */
+.navigation {
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .active {
+    font-weight: bold;
+}
+
+/* hero section */
+.hero {
+    padding: 1rem;
+    /* padding-top: 5rem; */
+}
+
+.hero .hero-img {
+    max-width: 360px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding: 1rem;
+    padding-bottom: 0rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/* sections */
+.section {
+    padding: 2rem 1rem;
+
+}
+
+.section h1{
+    text-align: center;
+}
+.ow {
+    background-color: var(--gray);
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .top-link {
+    color: var(--dark-gray);
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.container ol {
+    padding-bottom: 2rem;
+}
+
+.hero small {
+    text-align: center;
+    margin-top: auto;
+}
+
+.hero .hero-author {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
