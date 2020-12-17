@@ -33,12 +33,12 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
+    margin-right: 1rem;
     color: white;
 }
 
@@ -136,6 +136,7 @@ hr {
 }
 
 .footer .top-link {
+    text-decoration: none;
     color: var(--dark-gray);
 }
 
@@ -155,6 +156,10 @@ hr {
 
 .hero .hero-author {
     text-align: center;
+}
+
+p {
+    margin-bottom: 2rem;
 }
 
 .showcase-list {
